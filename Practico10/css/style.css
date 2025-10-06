@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  color: darkgrey;
+  border: none;
+  margin: 8px;
+}
+main{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 23px;
+}
+h1,h2{
+  color: blue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#ImagenCentral {
+  display: block;
+  margin: 20px auto;
+  width: 90%;
+}
+
+.contenedor, .contenedor2 {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+#imagenComponente {
+  width: 35%;
+  margin: 0;
+}
+
+#parrafoComponente {
+  width: 73%;
+  margin: 0;
+}
+#ImagenMusic {
+  width: 40%;
+  margin: 0;
+}
+#ParrafoMusic {
+  width: 55%;
+  margin: 0;
+}
