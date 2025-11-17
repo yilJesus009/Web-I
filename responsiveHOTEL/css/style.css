@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+/* body{
+     border-top: 7px solid rgba(180, 180, 180, 0.5); 
+} */
+
+.main-container{
+    margin: 0px auto;
+    padding: 0px 5px;
+}
+.contenido,.footer,.subtitulo__form,.form__recepcion,.footer__content {
+    display: none;
+}

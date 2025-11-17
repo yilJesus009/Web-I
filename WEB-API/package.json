@@ -1,0 +1,27 @@
+{
+  "name": "api-personas",
+  "version": "1.0.0",
+  "description": "Web API para gestionar personas",
+  "homepage": "https://github.com/yilJesus009/Web-I#readme",
+  "bugs": {
+    "url": "https://github.com/yilJesus009/Web-I/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yilJesus009/Web-I.git"
+  },
+  "license": "MIT",
+  "author": "gil jesus gil pantoja",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  }
+}

@@ -1,0 +1,20 @@
+.banner__image {
+  
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .banner__image {
+    height: 400px;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 1200px) {
+  .banner__image {
+    height: 500px;
+    object-fit: cover;
+  }
+}

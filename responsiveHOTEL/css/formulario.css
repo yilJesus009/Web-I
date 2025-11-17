@@ -1,0 +1,189 @@
+.subtitulo__form {
+    display: flex; /* flex; */
+    border: 3px solid #e1e1e1;
+    width: 980px;
+    height: 100px;
+    margin: 0 auto; 
+    border-radius: 8px;
+    position: absolute; 
+    top: 635px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    z-index: 10;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.subtitulo__form__text{
+    background-color: #f3f3f3;
+    border-right: #e1e1e1 1px solid;
+    width : 215px; 
+    padding : 18px 18px 25px 18px;
+}
+.subtitulo__form__text p{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    color: #373535;
+}
+.subtitulo{
+    margin: 0px;
+    color: #373535;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.form__recepcion{
+    width: 766px;
+    display: flex;
+    gap: 10px;
+    padding: 20px 18px 22px 18px;
+    font-size: 13px;
+    margin: 0;
+}
+.btn__book__now{
+    background-color: #32a2e3;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 95px;    
+    height: 35px;
+    font-weight: bold;
+    margin-top: 14px;
+}
+
+.form__recepcion label{
+    font-size: 13px;
+    color: #373535;
+}
+.form__type__room select{
+    border-color: #e1e1e1;
+    width: 175px;
+    height: 35px;
+    border-radius: 5px;
+    margin: 0px;
+    color: #373535;
+    text-align: center;
+    display: flex;
+    
+}
+.form__checkin input, .form__checkout input{
+    border-color: #e1e1e1;
+    color: #373535;
+    width: 145px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+}
+.adultos input, .form__children input{
+    border-color: #e1e1e1;
+    color: #373535;
+    width: 52px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: right;
+    display: flex;
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .subtitulo__form {
+    display: flex;
+    border: 3px solid #e1e1e1;
+    width: calc(100% - 450px);
+    height: 100px;
+    margin: 0 225px; 
+    border-radius: 8px;
+    position: absolute; 
+    top: 635px; 
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.subtitulo__form__text{
+    background-color: #f3f3f3;
+    border-right: #e1e1e1 1px solid;
+    width: 215px; 
+    padding: 18px 18px 25px 18px;
+    flex-shrink: 0; 
+}
+
+.form__recepcion{
+    display: flex;
+    gap: 10px;
+    padding: 20px 18px 22px 18px;
+    font-size: 13px;
+    margin: 0;
+}
+
+.form__type__room select{
+    border-color: #e1e1e1;
+    width: 175px;
+    height: 35px;
+    border-radius: 5px;
+    margin: 0px;
+    color: #373535;
+    text-align: center;
+    flex-shrink: 0; 
+}
+
+.form__checkin input, .form__checkout input{
+    border-color: #e1e1e1;
+    color: #373535;
+    width: 145px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.adultos input, .form__children input{
+    border-color: #e1e1e1;
+    color: #373535;
+    width: 52px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: right;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+

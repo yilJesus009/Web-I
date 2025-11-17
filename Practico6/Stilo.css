@@ -1,0 +1,13 @@
+legend{
+    background-color: gray;
+    color: darkblue;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+fieldset {
+    background-color: lightgray;
+}
+label{
+    font-weight: bold;
+}

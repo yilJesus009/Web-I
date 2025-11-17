@@ -1,0 +1,18 @@
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    padding: 0px 450px;
+    /* justify-content: center; */
+}
+.footer__section {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.footer__section a, p{
+    color: #d1d1d1;
+    text-decoration: none;
+    
+}

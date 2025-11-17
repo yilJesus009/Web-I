@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Stilo.css">
+    <title>Document</title>
+</head>
+<body>
+     <form action="https://form-receiver.vercel.app/api/form" method="post" target="_blank">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" maxlength="100" required><br>
+
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="apellido" maxlength="150" required><br>
+            </div>
+            <div>
+                <label>Genero</label><br>
+                <input type="radio" id="masculino" name="genero">
+                <label for="masculino">Masculino</label><br>
+                <input type="radio" id="femenino" name="genero">
+                <label for="femenino">Femenino</label><br>
+            </div>
+            <div>
+                <label for="cedula_pasaporte">CI / pasaporte</label>
+                <input type="text" id="cedula_pasaporte" name="cedula_pasaporte" maxlength="15" required><br>
+            </div>
+            <div>
+                <label for="nacimiento">Fecha de Nacimiento</label>
+                <input type="date" id="nacimiento" name="nacimiento" required><br>
+            </div>
+            <div>
+                <label for="telefono">Telefono</label>
+                <input type="text" id="telefono" name="telefono" maxlength="15" required><br>
+            </div>
+            <div>
+                <label for="ciudad">Ciudad de Residencia</label>
+                <select name="ciudad" id="ciudad" required>
+                    <option value="">Seleccione una ciudad</option>
+                    <option value="SC">Santa Cruz</option>
+                    <option value="LP">La Paz</option>
+                    <option value="CB">Cochabamba</option>
+                    <option value="CH">Chuquisaca </option>
+                    <option value="TJ">Tarija </option>
+                    <option value="BN">Beni</option>
+                    <option value="PN">Pando</option>
+                    <option value="OR">Oruro</option>
+                    <option value="PT">Potosi</option>
+                    <option value="EX">Extranjero</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Datos de Inscripcion</legend>
+            <div>
+                <label>Distancia</label><br>
+                <label for="distancia">5K</label>
+                <input type="radio" id="5k" name="distancia" value="5k" required><br>
+                <label for="distancia">10K</label>
+                <input type="radio" id="10k" name="distancia" value="10k" required>
+            </div>
+            <div>
+                <label>Talla de Polera</label><br>
+                <label for="xs">XS</label>
+                <input type="radio" id="xs" name="talla_polera" value="S" required>
+                <label for="s">S</label>
+                <input type="radio" id="s" name="talla_polera" value="M" required>
+                <label for="m">M</label>
+                <input type="radio" id="m" name="talla_polera" value="L" required>
+                <label for="l">L</label>
+                <input type="radio" id="l" name="talla_polera" value="XL" required>
+                <label for="xl">XL</label>
+                <input type="radio" id="xl" name="talla_polera" value="XXL" required>
+                <label for="xxl">XXL</label>
+                <input type="radio" id="xxl" name="talla_polera" value="XXL" required>
+            </div>
+            <div>
+                <label for="contacto_emergencia">Contacto de Emergencia</label>
+                <input type="text" id="contacto_emergencia" name="contacto_emergencia" maxlength="15" required>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Preferencias</legend>
+            <div>
+                <label for="deportes">Deporte que Practica</label>
+                <select name="deportes" id="deportes">
+                    <option value="running">Running</option>
+                    <option value="gimnasia">Gimnasia</option>
+                    <option value="natacion">Natación</option>
+                    <option value="ciclismo">Ciclismo</option>
+                    <option value="crossfit">Crossfit</option>
+                    <option value="calistenia">Calistenia</option>
+                    <option value="otro">Otros</option>
+                </select>
+            </div>
+            <div>
+                <label for="otro_deporte">Otro Deporte</label>
+                <input type="text" id="otro_deporte" name="otro_deporte" maxlength="100">
+            </div>
+            <div>
+                <label for="comentarios">Comentarios y Sugerencias</label><br>
+                <textarea id="comentarios" name="comentarios" rows="4" cols="50" maxlength="500"></textarea><br>
+            </div>
+        </fieldset>
+         <div>
+            <input type="checkbox" id="terminos" name="terminos" required>
+            <label for="terminos">Acepto los términos y condiciones</label>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </div>
+    </form>
+</body>
+</html>

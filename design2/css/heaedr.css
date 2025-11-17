@@ -1,0 +1,54 @@
+.header__container {
+    /* border: red 2px solid; */
+    display: flex;
+    justify-content: space-between; /* Cambiado de column a space-between */
+    align-items: center;
+    width: 100%; /* Asegurar que ocupe todo el ancho */
+    padding: 0 20px; /* Agregar padding lateral opcional */
+}
+
+/* Contenedor para logo y título */
+.header__left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__title {
+    gap: 20px;
+    padding: 24px 5px 24px 0px;
+    font-size: 19px;
+    font-weight: bold;
+    color: #9e8e92;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header__title span {
+    font-weight: normal;
+    display: block;
+    font-size: 15px;
+}
+
+.nav__list {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin: 0; /* Agregar para eliminar márgenes por defecto */
+    padding: 0; /* Agregar para eliminar padding por defecto */
+}
+
+.nav__link{
+    text-decoration: none;
+    padding: 52px 50px 48px 50px;
+    color: #333; /* Agregar color por defecto */
+}
+
+.nav__item{
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.nav__link:hover {
+    background-color: #fdbd1f;
+    color: #fff;
+}

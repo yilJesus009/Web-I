@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="css/contenido.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <title>ParadiseHotel</title>
+</head>
+<body>
+    <main class="main-container">
+        <header class="header">
+            <div class="logo">
+                <img src="img/logo.png" alt="Paradise Hotel Logo">
+            </div>            
+            <nav class="menu">
+                <label class="menu-mobile-label" for="menu-switch">
+                    <i class="fa-solid fa-bars"></i>
+                    Menu
+                </label>
+                <input id="menu-switch" type="checkbox">
+            <ul>
+                <li>
+                    <a href="#">Hotel </a>
+                </li>
+                <li>
+                    <a href="#">Rooms & Suites </a>
+                </li>
+                <li>
+                    <a href="#">Reservations </a>
+                </li>
+                <li>
+                    <a href="#">Services </a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li id="lenguaje__header">
+                    <a href="#">en</a>
+                </li>
+            </ul>
+            </nav>       
+        </header>
+        <section class="banner">
+                <img class="banner__image" src="img/banner.png" alt="">
+        </section>
+        <section class="subtitulo__form">
+            <div class="subtitulo__form__text">
+                <h2 class="subtitulo">Book a room online</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+            </div>
+            <form class="form__recepcion" action="#" method="post">
+                <div class="form__type__room">
+                    <label for="checkbox">Type of room:</label>
+                    <select name="room_type" id="room_type">
+                        <option value="single">Select a type of room</option>
+                        <option value="single">Single</option>
+                        <option value="double">Double</option>
+                        <option value="suite">Suite</option>
+                    </select>
+                </div>
+                <div class="form__checkin">
+                    <label for="checkin">Check-in: Date</label>
+                    <input type="date" id="checkin" name="checkin">
+                </div>
+                <div class="form__checkout">
+                    <label for="checkout">Check-out: Date</label>
+                    <input type="date" id="checkout" name="checkout">
+                </div>
+                <div class="adultos">
+                    <label for="adults">Adults:</label>
+                    <input type="number" id="adults" name="adults" min="1" max="10" value="1">
+                </div>
+                <div class="form__children">
+                    <label for="children">Children:</label>
+                    <input type="number" id="children" name="children" min="0" max="10" value="0">
+                </div>
+
+                <button class="btn__book__now" type="submit">Book now</button>
+            </form>
+
+        </section>
+        <section class="contenido">
+    <div class="room__single">
+        <img src="img/room1.png" alt="Single Room">
+        <h2>Single Room <span>110 €</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer
+            adipiscing elit, sed diam nonummy nibh
+            euismod tincidunt ut laoreet dolore magna
+            aliquam erat volutpat.
+        </p>
+    </div>
+    <div class="room__double">
+        <img src="img/room2.png" alt="Double Room">
+        <h2>Double Room <span>160 €</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer
+            adipiscing elit, sed diam nonummy nibh
+            euismod tincidunt ut laoreet dolore magna
+            aliquam erat volutpat.
+        </p>
+    </div>
+    <div class="room__suite">
+        <img src="img/suite.png" alt="Suite Room">
+        <h2>Suite Room <span>210 €</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer
+            adipiscing elit, sed diam nonummy nibh
+            euismod tincidunt ut laoreet dolore magna
+            aliquam erat volutpat.
+        </p>
+    </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__section">
+            <p>&copy; 2012 Paradise Hotel. All rights reserved.</p>
+        </div>
+            
+            <div class="footer__section">
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i>facebook</a>
+                    <a href="#"><i class="fab fa-twitter"></i>twitter</a>
+                    <a href="#"><i class="fab fa-instagram"></i>instagram</a>
+                </div>
+            </div>
+
+            <div class="footer__section">
+                <a href="#">Home</a>
+                <a href="#">Rooms & Suites</a>
+                <a href="#">Reservations</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        
+    </footer>
+    </main>
+</body>
+</html>

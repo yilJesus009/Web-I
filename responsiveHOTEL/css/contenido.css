@@ -1,0 +1,29 @@
+.contenido{
+    padding: 90px 225px 225px 225px;
+    background-color: #ebebeb;
+    display: none;/* flex; */
+    gap: 45px;
+    justify-content: center;
+}
+.room__single, .room__double, .room__suite{
+    width: 295px;
+    height: auto;
+    
+    font-family: 'Open Sans', sans-serif;
+}
+.contenido h2{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #373535;
+    
+    
+}
+.contenido span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.contenido p{
+    color: #373535;
+    font-size: 13px;
+    text-align: justify;
+}

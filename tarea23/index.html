@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo23.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="main__container">
+        <h1>calculadora de metabolismo</h1>
+        <form class="form__calc">
+            <div class="form__genero">
+                <label>Género:</label>
+                <select name="genero" id="label__Sexo" >
+                    <option value="elegir">elija una opción</option>
+                    <option value="hombre">Hombre</option>
+                    <option value="mujer">Mujer</option>
+                </select>
+            <div class="msg-error" id="msg-error-genero"></div>
+
+            </div>
+            <div class="form__peso">
+                <label>Peso (kg):</label><br>
+                <input type="number" id="input__Peso" min="0">
+                <div class="msg-error" id="msg-error-peso">
+
+                </div>
+            </div>
+            <div class="form__altura">
+                <label>Altura (cm):</label><br>
+                <input type="number" id="input__Altura" min="0">
+                <div class="msg-error" id="msg-error-altura"></div>
+            </div>
+            <div class="form__edad">
+                <label>Edad (años):</label><br>
+                <input type="number" id="input__Edad"  min="0">
+                <div class="msg-error" id="msg-error-edad"></div>
+            </div>
+            <div class="form__actividad">
+                <label>Actividad:</label>
+                <select name="actividad" id="input__Actividad">
+                    <option value="seleccionar">elija una opción</option>
+                    <option value="poco">poco o ninguno</option>
+                    <option value="ligero">ligero</option>
+                    <option value="moderado">Moderado</option>
+                    <option value="fuerte">fuerte</option>
+                    <option value="muy_fuerte">muy fuerte</option>
+                </select>
+                <div class="msg-error" id="msg-error-actividad"></div>
+            </div>
+        <button type="button" onclick="calcular()">Calcular</button>
+            <input type="text" placeholder="Resultado" id="resultado" readonly>
+            <div id="resultado"></div>
+        </form>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

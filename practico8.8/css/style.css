@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  color: darkgrey;
+  border: none;
+  margin: 10px;
+}
+
+h1, p{
+  color: black;
+}
+main{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+figure img{
+  width: 100%;
+  height: auto;
+}
+hr{
+  background-color: darkgreen;
+  height: 2px;
+  border: none;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+li {
+  color: black;
+  position: relative;
+  padding-left: 20px;
+}
+li::before {
+  content: "◻";
+  color: darkgreen;
+}
+ul li strong {
+  color: black;
+}
